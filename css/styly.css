@@ -9,16 +9,21 @@ body {
 /* Selektor pro odd�l ozna�en� ID obal */
 div#obal {
   /* Maxim�ln� ���ka 960 px */
+
   /* Nastav okraje tak, aby byl blok obal na str�nce vycentrov�n */
+  text-align: center;
   /* Ohrani�en� - pln� �ed� ��ra o tlou��ce 1 pixel  */
+
   /* Vnit�n� odsazen� - 20 pixel� */
+  margin: 20px;
   /* B�l� barva pozad� */
   background-color: white;
   /* Barva textu - tmav� �ed� odst�n, �estn�ctkov� hodnoty 3 */
-  color
+  color:#222
 }
 
-/* Selektor pro zna�ku nav */ {
+/* Selektor pro zna�ku nav */ 
+nav{
   background-color: #222;
   margin: -20px;
   margin-bottom: 20px;
@@ -28,9 +33,10 @@ div#obal {
 }
 
 /* Pro v�echny odkazy v bloku navigace */
-nav.a {
+nav a {
   padding: 19px;
   /* Odkazy nebudou podtr�eny */
+  text-decoration: none;
   color: lightgray;
 }
 
@@ -48,7 +54,8 @@ h1 {
   /* V��ka ��dku nadpisu bude 2em */
 }
 
-/* Plat� pro nadpisy h2 i h3 */ {
+/* Plat� pro nadpisy h2 i h3 */ 
+h2, h3{
   font-weight: 200; 
   line-height: 2em;
 }
@@ -66,6 +73,7 @@ h3 {
 p, li {
   line-height: 1.5em;
   /* Horn� a spodn� okraj odstavc� i odr�ek budou odsazeny o hodnotu 1em */
+  padding: 1em;
 }
 
 p {
@@ -79,7 +87,14 @@ li {
 }
 
 /* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
-
+div.poznamka{
+  border-width: 10px;
+  border-left-style: solid;
+  border-color: gray;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: italic;
+}
 /* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
     * na lev�m okraji bude �ed� ohrani�en� 10px siln�
     * text bude zleva odsazen o 50 pixel�
@@ -91,6 +106,7 @@ footer {
   color: gray;
   margin: 10px auto;
   /* Z�pat� bude zarovn�no na st�ed */
+  text-align: center;
   font-size: 80%;
 }
 
