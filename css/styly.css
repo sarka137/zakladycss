@@ -40,7 +40,7 @@ nav a {
   color: lightgray;
 }
 
-/* Pro v�echny odkazy v bloku navigace p�i p�ejet� kurzoru my�i */ {
+/* Pro v�echny odkazy v bloku navigace p�i p�ejet� kurzoru my�i */ a:hover{
   color: white;
   background-color: rgb(0,153,204);
 }
@@ -52,6 +52,10 @@ h1 {
   /* Barva nadpisu bude toto�n� s barvou zv�razn�n�ho odkazu */
   /* Nadpis bude vyps�n velk�mi p�smeny */
   /* V��ka ��dku nadpisu bude 2em */
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  font-variant: ;
 }
 
 /* Plat� pro nadpisy h2 i h3 */ 
@@ -69,7 +73,7 @@ h3 {
   font-size: 1.2em;
   text-decoration-line: underline;
   text-decoration-style: dotted;
-  
+
   /* Nadpisy budou podtr�eny tenkou te�kovanou �arou, jej� barva bude shodn� s barvou p�sma */ 
 }
 
